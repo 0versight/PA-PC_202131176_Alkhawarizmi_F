@@ -49,4 +49,4 @@ VI. Kesimpulan
 
 A. Penghapusan latar belakang memainkan peran penting dalam gambar, yang secara signifikan berdampak pada berbagai industri dan aplikasi. 
 
-B. Terlepas dari tantangannya, kamera ini terus menjadi teknik penting dalam meningkatkan kualitas gambar dan memfokuskan pada elemen tertentu dalam gambar. Seiring kemajuan teknologi, kita dapat mengharapkan teknik penghapusan latar belakang yang lebih canggih dan akurat di masa depan.
+B. Terlepas dari tantangannya, Teknik ini terus menjadi teknik penting dalam meningkatkan kualitas gambar dan memfokuskan pada elemen tertentu dalam gambar. Seiring kemajuan teknologi, kita dapat mengharapkan teknik penghapusan latar belakang yang lebih canggih dan akurat di masa depan.
