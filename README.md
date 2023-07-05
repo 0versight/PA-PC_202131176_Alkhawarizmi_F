@@ -50,3 +50,37 @@ B. Aplikasi ini banyak digunakan dalam:
 A. Penghapusan latar belakang memainkan peran penting dalam gambar, yang secara signifikan berdampak pada berbagai industri dan aplikasi. 
 
 B. Terlepas dari tantangannya, Teknik ini terus menjadi teknik penting dalam meningkatkan kualitas gambar dan memfokuskan pada elemen tertentu dalam gambar. Seiring kemajuan teknologi, kita dapat mengharapkan teknik penghapusan latar belakang yang lebih canggih dan akurat di masa depan.
+
+
+### Baris Program
+```bash
+from rembg import remove
+from PIL import Image
+import matplotlib.pyplot as plt
+```
+
+### Gambar Asli
+```bash
+def remove_background(gambar_asli, gambar_hasil):
+    input_image = Image.open(gambar_asli)
+
+    plt.subplot(1, 2, 1)
+    plt.imshow(input_image)
+    plt.title('Gambar Asli')
+```
+### Menghapus latar belakang
+    output_image = remove(input_image)
+### Menampilkan gambar setelah latar belakang dihapus
+    plt.subplot(1, 2, 2)
+    plt.imshow(output_image)
+    plt.title('Gambar tanpa Background')
+### Menyimpan gambar yang telah dihapus latar belakang
+```bash
+    output_image.save(gambar_hasil)
+    
+    plt.tight_layout()
+    plt.show()
+gambar_asli = 'ALE.jpg'
+gambar_hasil = 'ALE_OUTPUT.png'
+remove_background(gambar_asli, gambar_hasil)
+```
