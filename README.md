@@ -85,38 +85,38 @@ gambar_hasil = 'ALE_OUTPUT.png'
 remove_background(gambar_asli, gambar_hasil)
 ```
 ## Penjelasan baris program
-1. from rembg import remove
+1. from rembg import remove = Mengimpor fungsi remove dari library rembg. Fungsi ini digunakan untuk menghapus latar belakang.
 
-2. from PIL import Image
+2. from PIL import Image = Mengimpor class Image dari library PIL. Class ini digunakan untuk membaca dan menyimpan gambar.
 
-3. import matplotlib.pyplot as plt
+3. import matplotlib.pyplot as plt = Mengimpor library matplotlib.pyplot sebagai fungsi plt.
 
-4. def remove_background(gambar_asli, gambar_hasil):
+4. def remove_background(gambar_asli, gambar_hasil): = Membuat awalan shell untuk fungsi remove background, dan juga membuat path penyimpanan gambar hasil.
    
-5. input_image = Image.open(gambar_asli)
+5. input_image = Image.open(gambar_asli) = Membuka gambar menggunakan fungsi open dari class Image dengan memasukkan path gambar sebagai argumen. Gambar tersebut disimpan dalam variabel input_image.
 
-6. plt.subplot(1, 2, 1)
+7. plt.subplot(1, 2, 1) = Membuat subplot dengan ukuran 1 baris dan 2 kolom, dan memilih subplot pertama sebagai posisi saat ini untuk menampilkan gambar.
 
-7. plt.imshow(input_image)
+8. plt.imshow(input_image) = Menampilkan gambar asli menggunakan fungsi imshow dari library matplotlib.pyplot dengan memasukkan gambar asli sebagai argumen.
 
-8. plt.title('Gambar Asli')
+9. plt.title('Gambar Asli') = Memberikan judul "Gambar Asli" pada subplot pertama.
 
-9. output_image = remove(input_image)
+10. output_image = remove(input_image) = Menghapus latar belakang gambar menggunakan fungsi remove dari library rembg. Gambar hasil penghapusan disimpan dalam variabel output_image.
 
-10. plt.subplot(1, 2, 2)
+11. plt.subplot(1, 2, 2) = Memilih subplot kedua sebagai posisi saat ini untuk menampilkan gambar hasil penghapusan latar belakang.
 
-11. plt.imshow(output_image)
+12. plt.imshow(output_image) = Menampilkan gambar hasil penghapusan latar belakang menggunakan fungsi imshow dengan memasukkan gambar hasil sebagai argumen.
 
-12. plt.title('Gambar tanpa Background')
+13. plt.title('Gambar tanpa Background') = Memberikan judul "Gambar tanpa background" pada subplot kedua.
 
-13. output_image.save(gambar_hasil)
+14. output_image.save(gambar_hasil) = Menyimpan gambar hasil penghapusan latar belakang ke path yang telah ditentukan menggunakan fungsi save dari class Image.
     
-14. plt.tight_layout()
+15. plt.tight_layout() = Mengatur tata letak subplot agar tampilan lebih rapi.
 
-15. plt.show()
+16. plt.show() = Menampilkan subplot secara keseluruhan.
 
-16. gambar_asli = 'ALE.jpg'
+17. gambar_asli = 'ALE.jpg' = Menjelaskan sumber gambar asli ALE.jpg
 
-17. gambar_hasil = 'ALE_OUTPUT.png'
+18. gambar_hasil = 'ALE_OUTPUT.png' = Menyimpan gambar hasil dengan format png dan nama file ALE_OUTPUT.png
 
-18. remove_background(gambar_asli, gambar_hasil)
+19. remove_background(gambar_asli, gambar_hasil) = Penutup dari shell untuk fungsi remove background
