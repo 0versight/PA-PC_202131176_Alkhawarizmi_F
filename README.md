@@ -1,5 +1,5 @@
+![image](https://github.com/0versight/PA-PC_202131176_Alkhawarizmi_F/assets/114799207/b55b2af6-114a-4eca-acc4-1a2adc88bcce)
 # Ujian Akhir Semester melakukan Praktik Remove Background
-
 
 # Dasar Teori
   ## I. Pendahuluan
