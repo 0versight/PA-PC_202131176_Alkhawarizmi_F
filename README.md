@@ -84,3 +84,39 @@ gambar_asli = 'ALE.jpg'
 gambar_hasil = 'ALE_OUTPUT.png'
 remove_background(gambar_asli, gambar_hasil)
 ```
+## Penjelasan baris program
+1. from rembg import remove
+
+2. from PIL import Image
+
+3. import matplotlib.pyplot as plt
+
+4. def remove_background(gambar_asli, gambar_hasil):
+   
+5. input_image = Image.open(gambar_asli)
+
+6. plt.subplot(1, 2, 1)
+
+7. plt.imshow(input_image)
+
+8. plt.title('Gambar Asli')
+
+9. output_image = remove(input_image)
+
+10. plt.subplot(1, 2, 2)
+
+11. plt.imshow(output_image)
+
+12. plt.title('Gambar tanpa Background')
+
+13. output_image.save(gambar_hasil)
+    
+14. plt.tight_layout()
+
+15. plt.show()
+
+16. gambar_asli = 'ALE.jpg'
+
+17. gambar_hasil = 'ALE_OUTPUT.png'
+
+18. remove_background(gambar_asli, gambar_hasil)
