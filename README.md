@@ -1,14 +1,14 @@
-## Ujian Akhir Semester melakukan Praktik Remove Background
+# Ujian Akhir Semester melakukan Praktik Remove Background
 
 
-## Dasar Teori
-I. Pendahuluan
+# Dasar Teori
+  ## I. Pendahuluan
 
 A. Penghapusan latar belakang adalah teknik penting dalam pemrosesan gambar yang memisahkan subjek gambar dari latar belakangnya. 
 
 B. Teknik ini banyak digunakan di berbagai industri, termasuk e-commerce, periklanan, forensik, dan pencitraan medis, hingga peningkatan kualitas gambar dan fokus pada elemen-elemen tertentu dalam sebuah gambar.
 
-II. Apa itu Penghilangan Latar Belakang?
+  ## II. Apa itu Penghilangan Latar Belakang?
 
 A. Penghapusan latar belakang adalah proses pemisahan latar depan (subjek gambar) dari latar belakang (background).  
 
@@ -16,7 +16,7 @@ B. Teknik ini sangat penting dalam pemrosesan gambar, karena memungkinkan kita u
 
 C. Namun, menghapus latar belakang secara akurat dari gambar dapat menjadi tantangan karena faktor-faktor seperti latar belakang yang kompleks, detail rumit pada subjek, dan berbagai kondisi pencahayaan.
 
-III. Teknik Penghilangan Latar Belakang
+  ## III. Teknik Penghilangan Latar Belakang
 Ada beberapa teknik manual dan otomatis untuk menghapus latar belakang:
 
 A. Teknik manual meliputi:
@@ -29,13 +29,13 @@ B. Teknik otomatis meliputi:
 - Thresholding: Teknik Ini melibatkan pengaturan nilai ambang batas untuk memisahkan subjek dan latar belakang berdasarkan nilai pikselnya.
 - Algoritma Machine Learning: Algoritma ini dapat dilatih untuk mengidentifikasi dan menghapus latar belakang dari gambar secara akurat.
 
-IV. Bagaimana Penghilangan Latar Belakang Bekerja?
+## IV. Bagaimana Penghilangan Latar Belakang Bekerja?
 
 A. Penghapusan latar belakang bekerja dengan mengidentifikasi perbedaan antara subjek dan latar belakang. Ini dapat didasarkan pada warna, nilai piksel, atau fitur pembeda lainnya. 
 
 B. Proses ini melibatkan beberapa langkah, termasuk segmentasi gambar, ekstraksi fitur, dan pengeditan gambar.
 
-V. Keuntungan dan Aplikasi Penghilangan Latar Belakang
+## V. Keuntungan dan Aplikasi Penghilangan Latar Belakang
 
 A. Penghapusan latar belakang dapat secara signifikan meningkatkan kualitas gambar dengan memfokuskan pada subjek. 
 
@@ -45,7 +45,7 @@ B. Aplikasi ini banyak digunakan dalam:
 - Analisis forensik: Untuk fokus pada elemen tertentu dalam gambar untuk analisis yang lebih terperinci.
 - Pencitraan medis: Untuk mengisolasi struktur atau wilayah tertentu untuk visualisasi dan analisis yang lebih baik.
 
-VI. Kesimpulan
+## VI. Kesimpulan
 
 A. Penghapusan latar belakang memainkan peran penting dalam gambar, yang secara signifikan berdampak pada berbagai industri dan aplikasi. 
 
